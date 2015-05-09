@@ -1,0 +1,11 @@
+[package]
+name = "rust_server"
+version = "0.1.0"
+authors = ["Andreas Stocker <andreas@stockers.org>"]
+
+[dependencies]
+iron = "*"
+router = "*"
+
+[dependencies.redis]
+git = "https://github.com/mitsuhiko/redis-rs"
